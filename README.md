@@ -8,13 +8,24 @@ Fiz esse jogo com o intuito de promover a brincadeira através da programação,
 
 ![Jogo rodando](assets/Projeto_funcionando.png)
 
-## ⚙ Pré-requisitos
+## ⚙ Instalação e Pré-requisitos
 
-Para compilar e executar este jogo da velha, será necessário um compilador C++:
+Para compilar e executar este jogo da velha, será necessário um compilador C++.
+
+### Pré-requisitos
 
 - Sistema operacional: Windows, Linux ou MacOS;
 - Compilador C++ instalado (por exemplo, [GCC](https://gcc.gnu.org/) ou [MinGW](http://www.mingw.org/));
 - Terminal ou prompt de comando para executar o programa.
+
+### Como compilar e executar
+
+No terminal, navegue até a pasta do projeto e digite:
+
+(```bash
+g++ jogo_da_velha.cpp -o jogo
+./jogo     | No Linux/macOS
+jogo.exe   | No Windows)
 
 ## 👨‍🏫 Como Jogar? 
 
