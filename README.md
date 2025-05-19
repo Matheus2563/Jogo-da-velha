@@ -23,7 +23,7 @@ Para compilar e executar este jogo da velha, será necessário um compilador C++
 No terminal, navegue até a pasta do projeto e digite:
 
 (```bash
-g++ jogo_da_velha.cpp -o jogo
+g++ main.cpp -o jogo
 ./jogo     | No Linux/macOS
 jogo.exe   | No Windows)
 
