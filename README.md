@@ -35,10 +35,28 @@ Ganha o jogo o primeiro jogador a fazer três símbolos iguais em sequência, ta
 
 Ao final de cada partida, o programa perguntará se quer começar ou não outra partida da posição inicial, digite 'S' ou 's' para "sim", ou 'N' ou 'n' para "não".
 
+### Exemplos de comando
+
+![Jogo ao apertar s](assets/Exemplo_sim.png)
+
+Perceba que neste exemplo os comandos foram '5', '6' e '8' para as posições do tabuleiro, 'S' para reiniciar a partida e, ao pressionar 'p' nas escolhas das posições, a saída retorna inválida e te faz escolher outra posição.
+
+![Jogo ao apertar N](assets/Exemplo_nao.png)
+
+Agora, em outro exemplo, as entradas foram '5' e '8' representando as posições do tabuleiro, porém ao tentar ocupar novamente a posição '8', o código retorna inválido e pede outra posição. Como '\' não é uma posição do tabuleiro, retorna inválido e pede outra posição. Quando o jogador marca a posição '9', a parida acaba, pois as três posições '1', '5' e '9' possuem mesmo símbolo e estão na linha diagonal. Depois do comando 'n' o programa para de rodar, porque representa "não" para a pergunta feita.
+
+Os comandos possíveis são:
+
+'1', '2', '3', '4', '5', '6', '7', '8' e '9' para posições do tabuleiro se estiverm vazias.
+
+'n', 'N', 's' e 'S' para responder a pergunta de reinício da partida.
+
 ## 👨‍💻 Estrutura do projeto
 
 Jogo-da-velha/
 ├── assets/
+|    ├── Exemplo_nao.png
+|    ├── Exemplo_sim.png
 |    ├── Projeto_funcionando.png
 |    └── Logo_Mit_License.png
 ├── .gitignore
