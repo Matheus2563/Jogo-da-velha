@@ -26,14 +26,14 @@ Ao final de cada partida, o programa perguntará se quer começar ou não outra 
 
 ## 👨‍💻 Estrutura do projeto
 
-Jogo-da-velha
-├── README.md
-├── LICENSE
-├── main.cpp
+Jogo-da-velha/
+├── assets/
+|    ├── Projeto_funcionando.png
+|    └── Logo_Mit_License.png
 ├── .gitignore
-└── assets/
-    ├── Projeto_funcionando.png
-    └── Logo_Mit_License.png
+├── LICENSE
+├── README.md
+└── main.cpp
 
 ### Principais Arquivos
 
